@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display:flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.email{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 510px;
+    height: 529px;
+    margin-left: 50px;
+}
+.confirmation{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.details{
+    font-size: 16px;
+    font-weight: 700;
+    color:gray;
+    margin-bottom: 30px;
+}
+.rightSection{
+    width: 440px;
+    /* height: 429px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input{
+    width: 64px;
+    height:64px;
+    border: 1px solid;
+    border-radius: 100px;
+   
+    margin-bottom: 20px;
+    margin-right: 5px;
+    padding-left: 20px;
+    font-size:16px ;
+    font-weight: 400;
+}
+.submitButton{
+    width: 440px;
+    height: 44px;
+    border: 1px solid;
+    background-color: #F3BD00;
+    color: black;
+    border-radius: 100px;
+    margin-top: 20px;
+    font-size:16px ;
+    font-weight: 400;
+    margin-bottom: 10px;
+    z-index: 4;
+    cursor: pointer;
+
+}
+
+
+.resend{
+    size: 12px;
+    font-weight: 500;
+    text-align: center;
+}
