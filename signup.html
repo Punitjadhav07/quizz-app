@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./signup.css">
 </head>
 <body>
     <div class="container">
@@ -13,22 +13,30 @@
             <img src="./Login.png">
         </div>
         <div class="rightSection">
-            <p class="login"> Login </p>
-            <p class="details">Please enter your details below</p>
-            <p class="id">
-                Email Id
+            <p class="login"> Signup </p>
+            <p class="details">Sign Up to join</p>
+
+            <p class="name">
+                Full Name
+            </p>
+
+            <input class="Name" type="text" placeholder="Full Name "/>
+            <p class="email">
+                Email
             </p>
             <input class="username"type="text" placeholder="xyz@gmail.com"/>
             <p class="id">
                 Password
             </p>
-            <input class="username"type="password" placeholder="password"/>
-            <button class="loginButton" > Login</button>
+            <input class="pass"type="password" placeholder="password"/>
+
+            <button onclick="login()" class="loginButton" > Sign Up</button>
             <button class="google"> Sign in With Google <i class="fa-brands fa-google" style="padding-left: 20px;"></i></button>
-            <p class="signup">Dont Have an account ? <a>Sign up</a></p>
+            
         </div>
         
     </div>
-    <link rel="Js" href="login.js">
+    <script src="./signup.js"></script>
+    
 </body>
 </html>
