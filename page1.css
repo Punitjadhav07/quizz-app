@@ -27,3 +27,115 @@
     gap: 30px;
     
 }
+.content H1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.content{
+    width: 1360px;;
+    height: 86px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quizDetails{
+    font-size: 12px;
+    font-weight: 500;
+    color: #8E8E93;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1360px;
+    height: 779px;
+    gap: 40px;
+}
+.mainSection{
+    width: 1180px;
+    height: 628px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.topSection{
+    width: 1132px;
+    height: 381px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
+
+}
+.catch{
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+.cathyLine p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #8E8E93;
+    
+
+}
+
+.bottomSection{
+    
+    display: flex;
+    width: 1132px;
+    height: 76  px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+input{
+    width: 361px;
+    height: 51px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nameDetails{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.emailDetails{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contactDetails{
+    font-size: 16px;
+    font-weight: 500;
+}
+.startQuizButton{
+    width: 360px;
+    height: 43px;
+    background-color: #F3BD00;
+    border: none;
+    border-radius: 100px;
+    text-align: center;
+}
+
+button{
+    z-index: 1;
+    cursor: pointer;
+}
