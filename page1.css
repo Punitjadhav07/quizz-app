@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerSection{
+    display: flex;
+    justify-content: center;
+    gap: 1200px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.rightButton{
+    font-size: 16px;
+    font-weight: 500;
+    border:none;
+    background-color: transparent;
+}
+.rightSection{
+    width: 286px;
+    display: flex;
+    
+    justify-content: center;
+    gap: 30px;
+    
+}
