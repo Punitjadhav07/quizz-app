@@ -30,7 +30,7 @@
     height: 73px;
 }
 .progress-bar{
-    width: 136px;
+    width: 1088px;
     height: 16px;
     background-color:#F3BD00;
     
@@ -88,5 +88,6 @@ a{
 }
 .navigation{
     display: flex;
-    justify-content: end
+    justify-content: end;
+    gap: 851px;
 }
